@@ -1,6 +1,4 @@
-/**
- * Welcome to ICAL.js fiddle
- */
+function parseData(){
   $.ajax({
     url:'https://megaoof.djelectro.me/rit/ical_rit.ics',
     success: function (data){
@@ -13,4 +11,4 @@
       console.log('Summary: ' + summary);
     }
   });
-
+}
