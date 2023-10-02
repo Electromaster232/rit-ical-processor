@@ -2,7 +2,7 @@
  * Welcome to ICAL.js fiddle
  */
   $.ajax({
-    url:'http://megaoof.djelectro.me/rit/ical_rit.ics',
+    url:'https://megaoof.djelectro.me/rit/ical_rit.ics',
     success: function (data){
       var iCalendarData = data
      
